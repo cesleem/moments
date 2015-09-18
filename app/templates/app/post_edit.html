@@ -4,6 +4,8 @@
     <h1>New post</h1>
     <form method="POST" class="post-form">{% csrf_token %}
         {{ form.as_p }}
+        <!-- <input id="your_name" type="text" name="your_name" value="Amsterdam,Washington,Sydney,Beijing,Cairo" data-role="tagsinput"> -->
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
 {% endblock %}
+
